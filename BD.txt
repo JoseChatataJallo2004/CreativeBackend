@@ -1,0 +1,102 @@
+create database creativestore;
+use creativestore;
+
+
+create table Administrador (
+idadministrador int primary key ,
+nombre varchar(50),
+apellido varchar(50),
+correo varchar(50),
+clave varchar(50)
+)
+
+
+insert into Administrador values (1,'Jose Manuel','Chatata Jallo','123','123')
+
+select * from cliente
+
+create table Cliente (
+idCliente int primary key identity (1,1) ,
+nombre varchar(50),
+apellido varchar(50),
+correo varchar(50),
+dn varchar(50),
+celular varchar(50),
+)
+
+
+INSERT INTO Cliente (nombre, apellido, correo, dn, celular)
+VALUES 
+    ('Juan', 'Pérez', 'juan.perez@example.com', '12345678A', '555-1234'),
+    ('María', 'González', 'maria.gonzalez@example.com', '87654321B', '555-5678'),
+    ('Carlos', 'López', 'carlos.lopez@example.com', '11223344C', '555-8765'),
+    ('Ana', 'Martínez', 'ana.martinez@example.com', '22334455D', '555-4321'),
+    ('Luis', 'Hernández', 'luis.hernandez@example.com', '33445566E', '555-6789');
+
+select nombre,apellido,correo,celular from Cliente where dn='12345678A'
+
+select * from Cliente
+
+create table venta(
+idventa int primary key identity(1,1),
+numerodocumentocliente varchar(20),
+total decimal(10,2)
+)
+
+
+
+create table detalleventa(
+idetalleventa int primary key identity(1,1),
+idventa int references venta(idventa),
+producto varchar(50),
+precio decimal(10,2),
+cantidad int ,
+total decimal(10,2)
+)
+
+
+
+
+
+create table detalleventa(
+idetalleventa int primary key identity(1,1),
+idventa int references venta(idventa),
+producto varchar(50),
+precio decimal(10,2),
+cantidad int ,
+total decimal(10,2)
+)
+
+
+select * from venta;
+select * from detalleventa;
+
+--store procedure
+create or alter proc sp_guardar_venta(@venta_xml xml)
+as
+begin
+	insert into venta(numerodocumentocliente,total)
+	select
+	nodo.elemento.value('numerodocumento[1]','varchar(20)')[numerodocumento],
+	nodo.elemento.value('Total[1]','decimal(10,2)')[total]
+	from @venta_xml.nodes('Venta')nodo(elemento)
+
+
+	declare @idventa_generado int=(select max(idventa)from venta)
+
+	insert into detalleventa(idventa,producto,precio,cantidad,total)
+		select
+		@idventa_generado[idventa],
+	nodo.elemento.value('producto[1]','varchar(50)')[producto],
+	nodo.elemento.value('precio[1]','decimal(10,2)')[precio],
+	nodo.elemento.value('cantidad[1]','int')[cantidad],
+		nodo.elemento.value('Total[1]','decimal(10,2)')[total]
+	from @venta_xml.nodes('Venta/Detalle_Venta/Item')nodo(elemento)
+
+
+end
+
+
+
+select * from detalleventa
+select * from venta

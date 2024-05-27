@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Angular\Creative\SlnBackend\Backend\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-05-27T01:00:00.1746016Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="JoseChatata">
+      <Value>server=LAPTOP-II7GN3D1\SQLEXPRESS%3bdatabase=creativestore%3bintegrated security=true%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

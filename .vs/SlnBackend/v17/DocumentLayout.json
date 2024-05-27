@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Angular\\Creative\\SlnBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58E37BC2-C3DA-43A7-BC8D-0047054D51A2}|Backend\\Backend.csproj|c:\\angular\\creative\\slnbackend\\backend\\acceso_datos\\ac_administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E37BC2-C3DA-43A7-BC8D-0047054D51A2}|Backend\\Backend.csproj|solutionrelative:backend\\acceso_datos\\ac_administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E37BC2-C3DA-43A7-BC8D-0047054D51A2}|Backend\\Backend.csproj|c:\\angular\\creative\\slnbackend\\backend\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E37BC2-C3DA-43A7-BC8D-0047054D51A2}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\administradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E37BC2-C3DA-43A7-BC8D-0047054D51A2}|Backend\\Backend.csproj|c:\\angular\\creative\\slnbackend\\backend\\controllers\\detallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E37BC2-C3DA-43A7-BC8D-0047054D51A2}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\detallecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E37BC2-C3DA-43A7-BC8D-0047054D51A2}|Backend\\Backend.csproj|c:\\angular\\creative\\slnbackend\\backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E37BC2-C3DA-43A7-BC8D-0047054D51A2}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E37BC2-C3DA-43A7-BC8D-0047054D51A2}|Backend\\Backend.csproj|c:\\angular\\creative\\slnbackend\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{58E37BC2-C3DA-43A7-BC8D-0047054D51A2}|Backend\\Backend.csproj|solutionrelative:backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AC_Administrador.cs",
+              "DocumentMoniker": "C:\\Angular\\Creative\\SlnBackend\\Backend\\Acceso_Datos\\AC_Administrador.cs",
+              "RelativeDocumentMoniker": "Backend\\Acceso_Datos\\AC_Administrador.cs",
+              "ToolTip": "C:\\Angular\\Creative\\SlnBackend\\Backend\\Acceso_Datos\\AC_Administrador.cs",
+              "RelativeToolTip": "Backend\\Acceso_Datos\\AC_Administrador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T03:29:02.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdministradorController.cs",
+              "DocumentMoniker": "C:\\Angular\\Creative\\SlnBackend\\Backend\\Controllers\\AdministradorController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\AdministradorController.cs",
+              "ToolTip": "C:\\Angular\\Creative\\SlnBackend\\Backend\\Controllers\\AdministradorController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\AdministradorController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T03:10:17.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Backend.csproj",
+              "DocumentMoniker": "C:\\Angular\\Creative\\SlnBackend\\Backend\\Backend.csproj",
+              "RelativeDocumentMoniker": "Backend\\Backend.csproj",
+              "ToolTip": "C:\\Angular\\Creative\\SlnBackend\\Backend\\Backend.csproj",
+              "RelativeToolTip": "Backend\\Backend.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-27T03:09:40.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Angular\\Creative\\SlnBackend\\Backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Angular\\Creative\\SlnBackend\\Backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T03:07:50.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetalleController.cs",
+              "DocumentMoniker": "C:\\Angular\\Creative\\SlnBackend\\Backend\\Controllers\\DetalleController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\DetalleController.cs",
+              "ToolTip": "C:\\Angular\\Creative\\SlnBackend\\Backend\\Controllers\\DetalleController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\DetalleController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T03:00:52.321Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

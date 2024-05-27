@@ -1,0 +1,13 @@
+C:\Angular\Creative\SlnBackend\Backend\obj\Release\net8.0\win-x64\PubTmp\Out\Backend.exe
+C:\Angular\Creative\SlnBackend\Backend\obj\Release\net8.0\win-x64\PubTmp\Out\appsettings.Development.json
+C:\Angular\Creative\SlnBackend\Backend\obj\Release\net8.0\win-x64\PubTmp\Out\appsettings.json
+C:\Angular\Creative\SlnBackend\Backend\obj\Release\net8.0\win-x64\PubTmp\Out\Backend.dll
+C:\Angular\Creative\SlnBackend\Backend\obj\Release\net8.0\win-x64\PubTmp\Out\Backend.deps.json
+C:\Angular\Creative\SlnBackend\Backend\obj\Release\net8.0\win-x64\PubTmp\Out\Backend.runtimeconfig.json
+C:\Angular\Creative\SlnBackend\Backend\obj\Release\net8.0\win-x64\PubTmp\Out\Backend.pdb
+C:\Angular\Creative\SlnBackend\Backend\obj\Release\net8.0\win-x64\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Angular\Creative\SlnBackend\Backend\obj\Release\net8.0\win-x64\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Angular\Creative\SlnBackend\Backend\obj\Release\net8.0\win-x64\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Angular\Creative\SlnBackend\Backend\obj\Release\net8.0\win-x64\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Angular\Creative\SlnBackend\Backend\obj\Release\net8.0\win-x64\PubTmp\Out\System.Data.SqlClient.dll
+C:\Angular\Creative\SlnBackend\Backend\obj\Release\net8.0\win-x64\PubTmp\Out\sni.dll
